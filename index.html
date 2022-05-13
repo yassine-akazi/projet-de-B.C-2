@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" >
+    <link rel="stylesheet" href="my-style.css">
+    <script src="js/bootstrap.js" defer></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="color:azure;"><div class="text-center">
+            <img src="image/logo-eWA-White-280.png" class="rounded" alt="... " id="img2">
+          </div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pt-3 " id="flex">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color:azure; ">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:azure;">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color:azure;">portfolio</a>
+              </li> <li class="nav-item">
+                <a class="nav-link" href="#" style="color:azure;">about</a>
+              </li> <li class="nav-item">
+                <a class="nav-link" href="#" style="color:azure;">contact</a>
+              </li> <li class="nav-item">
+                <a class="nav-link pl-1" href="#" style="color:azure; pb-2"><button class="btn btn-primary" type="submit">sing in</button></a>
+              </li>
+           
+          </div>
+        </div>
+      </nav>
+      <a class="navbar-brand" href="#" style="color:azure;" id="img1"><div class="text-center">
+        <img src="image/logo-eWA-White-280.png" class="rounded" alt="...">
+      </div></a>
+
+
+      <center>
+     
+      <form class="row  " id="padd">
+        <div class="col-md-4">
+          <label for="validationDefault01" class="form-label"></label>
+          <input type="text" class="form-control" id="validationDefault01" placeholder="first name" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefault02" class="form-label" ></label>
+          <input type="text" class="form-control" id="validationDefault02" placeholder="last name" required>
+        </div>
+        <div class="col-md-4">
+          <label for="validationDefaultUsername" class="form-label"></label><br>
+          <div class="input-group">
+            <span class="input-group-text" id="inputGroupPrepend2">Email</span>
+            <input type="text" class="form-control" id="validationDefaultUsername" placeholder="xxxx@email.com"  aria-describedby="inputGroupPrepend2" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label for="validationDefault03" class="form-label"></label>
+          <input type="password"  class="form-control" id="validationDefault03" placeholder="password"  required>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault04" class="form-label"></label>
+          <select class="form-select" id="validationDefault04"value="Last name" required>
+            <option selected disabled value="">Choose...</option>
+            <option>F</option>
+            <option >M</option>
+            
+          </select>
+        </div>
+        <div class="col-md-3">
+          <label for="validationDefault05" class="form-label"></label>
+          <input type="date" value="." class="form-control" id="validationDefault05" required>
+        </div>
+        <div class="col-12">
+          
+       
+      </form>
+      
+    </center>
+    <div class="form-check" id="check">
+      <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+      <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+      </label>
+    </div>
+  </div>
+  <div class="col-12" id="but">
+    <button class="btn btn-primary" type="submit">Next</button>
+  </div>
+</body>
+</html>

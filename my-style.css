@@ -1,0 +1,51 @@
+/* .border-danger {
+    border-color: #0dcaf0!important;
+}
+.bg-primary {
+    --bs-bg-opacity: 1;
+    background-color: chocolate!important;
+}
+
+ */
+body{
+     background-color: rgb(29, 28, 28);
+ }
+.bg-light{
+    background-color: rgb(25, 79, 0)!important;
+}
+.btn-outline-success{
+    background-color: rgb(175, 255, 183)!important
+}
+/* img{
+   
+    width: 80px;
+} */
+
+#flex{
+    display: flex;
+}
+#padd{
+    padding-top:50px;
+    
+    display: flex;
+    width: 600px;
+}
+#but{
+    padding-left: 480px;
+    padding-top: 30px;
+}
+label{
+    padding: 0px;
+    color: rgb(255, 255, 255);
+}
+#check{
+    padding-top: 10px;
+    padding-left: 505px;
+}
+#img2{
+    width: 80px;
+}
+#img1{
+    padding: 10px;
+    width: 500px;
+}
